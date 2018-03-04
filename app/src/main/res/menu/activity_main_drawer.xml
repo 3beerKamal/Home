@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="all">
+
+        <item
+            android:id="@+id/home"
+            android:title="@string/app_name" />
+
+        <item
+            android:id="@+id/special"
+            android:title="Special Hospitals" />
+        <item
+            android:id="@+id/public_hospital"
+            android:title="Public Hospitals" />
+
+        <item
+            android:id="@+id/nurseries"
+            android:title="Children nurseries" />
+    </group>
+
+    <item android:title="Manage Profile">
+        <menu>
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Settings" />
+            <item
+                android:id="@+id/log_out"
+                android:icon="@android:drawable/ic_lock_idle_lock"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>
